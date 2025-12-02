@@ -7,6 +7,20 @@
     --secondary-font: "Lora", serif;
     --primary-color: #212121; /* Graphite Black */
     --secondary-color: #22223b; /* Dark Blue */
-    --background-color-primary: #cbdfbd; /* Beige Green */
-    --background-color-secondary: #a3c4bc; /* Tea Green */
+    --background-color-primary: #e2ecdf; /* Beige Green */
+    --background-color-secondary: #d1e1de; /* Tea Green */
+}
+
+h1 {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
+
+p {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+body {
+    background-color: var(--background-color-primary);
 }
