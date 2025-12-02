@@ -7,6 +7,7 @@
     --secondary-font: "Lora", serif;
     --primary-color: #212121; /* Graphite Black */
     --secondary-color: #22223b; /* Dark Blue */
+    --third-color: #f8ffed; /* Off White */
     --background-color-primary: #e2ecdf; /* Beige Green */
     --background-color-secondary: #425c52; /* Deep Sage */
 }
@@ -43,9 +44,25 @@ body {
     background-color: var(--background-color-primary);
 }
 
+/* Hero section / header */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/wide-landscape.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f8ffed;
+    padding-top: 57.52px;
+    padding-bottom: 4rem;
+}
+
+.hero h1 {
+    color: var(--third-color);
+}
+
 /* grid visualisation CSS for testing */
 
-.container,
+/* .container,
 .row {
     border: 2px solid black;
 }
@@ -53,4 +70,4 @@ body {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
