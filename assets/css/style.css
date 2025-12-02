@@ -10,6 +10,8 @@
     --third-color: #f8ffed; /* Off White */
     --background-color-primary: #e2ecdf; /* Beige Green */
     --background-color-secondary: #425c52; /* Deep Sage */
+    --background-color-tertiary: #d6e4d2; /* Light Beige Green */
+    --background-color-quaternary: #a7c49c; /* Slightly Light Beige Green */
 }
 
 /* Global styles */
@@ -85,6 +87,15 @@ body {
 #symptom-check .card {
     padding-top: 1rem;
     margin-bottom: 1.5rem;
+}
+
+/* Calming Tools */
+.accordion {
+    --bs-accordion-bg: var(--background-color-tertiary);
+    --bs-accordion-border-color: var(--bs-border-color-translucent);
+    --bs-accordion-active-bg: var(--background-color-quaternary);
+    --bs-accordion-active-color: var(--secondary-color);
+    --bs-accordion-btn-focus-box-shadow: none;
 }
 
 /* grid visualisation CSS for testing */
