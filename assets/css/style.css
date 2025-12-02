@@ -15,6 +15,7 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top: 57.52px; /* Adjusted for navbar height */
 }
 
 h1,
@@ -22,6 +23,10 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
+}
+
+.section {
+    padding-top: 4rem; /* prevents navbar from overlapping content */
 }
 
 /* Navbar */
