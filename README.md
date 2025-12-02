@@ -44,3 +44,5 @@ This project is deployed using GitHub Pages.
 -   **Content:** Mental health facts sourced from [Source Name, e.g., WHO/Mind.org].
 -   **Images:** Photos by [Photographer Name] via Unsplash.
 -   **Code:** Navbar structure adapted from Bootstrap 5 Documentation.
+
+## AI Assistance
