@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<!-- Bootstrap classes applied to work with mt-auto on footer to ensure it always stays at the bottom -->
+
+<body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container">
@@ -45,7 +47,7 @@
                         <a class="nav-link" href="#professional-help">Professional Help</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
                 </ul>
             </div>
@@ -61,14 +63,93 @@
             </div>
     </header>
 
+    <!-- Main content holding all sections -->
     <main>
 
+        <!-- Symptom Check section -->
+        <section id="symptom-check" class="container">
+            <div class="row">
+                <div class="col-12"></div>
+                <h2>Symptom Check</h2>
+                <p>Assess your mental health with our quick symptom checker.</p>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <p>Symptom Card 1</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <p>Symptom Card 2</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <p>Symptom Card 3</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <p>Symptom Card 4</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calming Tools section -->
+        <section id="calming-tools" class="container">
+            <div class="row">
+                <div class="col-12"></div>
+                <h2>Calming Tools</h2>
+                <p>Explore a variety of tools and techniques to help you find calm.</p>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <p>Tool Accordion 1</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <p>Tool Accordion 2</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <p>Tool Accordion 3</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <p>Tool Accordion 4</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Help section -->
+        <section id="professional-help" class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Professional Help</h2>
+                    <p>Find resources and contacts for professional mental health support.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials section -->
+        <section id="testimonials" class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h2>Testimonials</h2>
+                    <p>Read what others have to say about their journey with Calm Compass.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- Footer -->
+    <!-- mt-auto class pushes footer to bottom of page-->
+    <footer class="mt-auto">
+        <div id="footer" class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 text-center">
+                    <!-- Copyright -->
+                    <p>&copy; 2024 Calm Compass. All rights reserved.</p>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <!-- Social Media Icons Links -->
+                    <p>Social Media Icons Links</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/2e6f8ddc3b.js" crossorigin="anonymous"></script>
