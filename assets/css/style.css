@@ -89,8 +89,23 @@ body {
     background-color: lightgray;
 } */
 
-/* @media screen and (min-width: 1200px) {
-    #symptom-check .card {
-        min-height: 357.5px;
+/* Small devices */
+@media screen and (max-width: 992px) {
+    #symptom-check .card-img-top {
+        max-width: 50%;
     }
-} */
+}
+
+/* Large devices */
+@media screen and (min-width: 992px) {
+    #symptom-check .card-img-top {
+        max-width: 40%;
+    }
+}
+
+/* XL devices */
+@media screen and (min-width: 1200px) {
+    #symptom-check .card-img-top {
+        max-width: 50%;
+    }
+}
