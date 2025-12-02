@@ -60,6 +60,23 @@ body {
     color: var(--third-color);
 }
 
+/* Buttons */
+.custom-button-outline {
+    border: 3px solid var(--background-color-secondary);
+    color: var(--background-color-secondary);
+}
+
+.custom-button-outline:hover {
+    background-color: var(--background-color-secondary);
+    color: white;
+}
+
+/* Symptom Check */
+#symptom-check .card {
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -70,4 +87,10 @@ body {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
+} */
+
+/* @media screen and (min-width: 1200px) {
+    #symptom-check .card {
+        min-height: 357.5px;
+    }
 } */
