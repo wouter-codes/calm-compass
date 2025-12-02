@@ -98,6 +98,18 @@ body {
     --bs-accordion-btn-focus-box-shadow: none;
 }
 
+#stress-tools,
+#anxiety-tools,
+#loneliness-tools,
+#low-mood-tools {
+    padding-top: 4rem; /* prevents navbar from overlapping content */
+}
+
+#calming-tools .accordion {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -112,21 +124,24 @@ body {
 
 /* Small devices */
 @media screen and (max-width: 992px) {
-    #symptom-check .card-img-top {
+    #symptom-check .card-img-top,
+    #calming-tools .card-img-top {
         max-width: 50%;
     }
 }
 
 /* Large devices */
 @media screen and (min-width: 992px) {
-    #symptom-check .card-img-top {
+    #symptom-check .card-img-top,
+    #calming-tools .card-img-top {
         max-width: 40%;
     }
 }
 
 /* XL devices */
 @media screen and (min-width: 1200px) {
-    #symptom-check .card-img-top {
+    #symptom-check .card-img-top,
+    #calming-tools .card-img-top {
         max-width: 50%;
     }
 }
