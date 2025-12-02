@@ -3,9 +3,10 @@
 
 /* CSS Variables for consistent styling */
 :root {
-    --primary-font: 'Poppins', sans-serif;
-    --secondary-font: 'Lora', serif;
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "Lora", serif;
     --primary-color: #212121; /* Graphite Black */
-    --secondary-color: #22223B; /* Dark Blue */
-    --background-color-primary: #CBDFBD; /* Beige Green */
-    --background-color-secondary: #A3C4BC; /* Tea Green */
+    --secondary-color: #22223b; /* Dark Blue */
+    --background-color-primary: #cbdfbd; /* Beige Green */
+    --background-color-secondary: #a3c4bc; /* Tea Green */
+}
