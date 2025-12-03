@@ -8,6 +8,7 @@
     --primary-color: #212121; /* Graphite Black */
     --secondary-color: #22223b; /* Dark Blue */
     --third-color: #f8ffed; /* Off White */
+    --fourth-color: #cfd3c6; /* Darker Off White */
     --background-color-primary: #e2ecdf; /* Beige Green */
     --background-color-secondary: #425c52; /* Deep Sage */
     --background-color-tertiary: #d6e4d2; /* Light Beige Green */
@@ -15,7 +16,6 @@
 }
 
 /* Global styles */
-
 body {
     font-family: var(--primary-font);
     padding-top: 57.52px; /* Adjusted for navbar height */
@@ -33,7 +33,6 @@ h3 {
 }
 
 /* Navbar */
-
 #navbar {
     background-color: var(--background-color-secondary);
 }
@@ -116,6 +115,26 @@ body {
     --bs-modal-border-color: var(--bs-border-color-translucent);
 }
 
+/* Footer */
+#footer {
+    background-color: var(--background-color-secondary);
+    color: var(--third-color);
+}
+
+#footer p {
+    margin-bottom: 0;
+}
+
+#footer .section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.socials i {
+    color: var(--third-color);
+    font-size: 1.5rem;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -129,6 +148,13 @@ body {
 } */
 
 /* Small devices */
+@media screen and (max-width: 768px) {
+    #footer p {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Medium devices */
 @media screen and (max-width: 992px) {
     #symptom-check .card-img-top,
     #calming-tools .card-img-top {
