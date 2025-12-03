@@ -82,13 +82,13 @@ body {
     color: white;
 }
 
-/* Symptom Check */
+/* Symptom Check section */
 #symptom-check .card {
     padding-top: 1rem;
     margin-bottom: 1.5rem;
 }
 
-/* Calming Tools */
+/* Calming Tools section */
 .accordion {
     --bs-accordion-bg: var(--background-color-tertiary);
     --bs-accordion-border-color: var(--bs-border-color-translucent);
@@ -97,19 +97,33 @@ body {
     --bs-accordion-btn-focus-box-shadow: none;
 }
 
-#stress-tools,
-#anxiety-tools,
-#loneliness-tools,
-#low-mood-tools {
-    padding-top: 4rem; /* prevents navbar from overlapping content */
-}
-
 #calming-tools .accordion {
     padding-top: 1rem;
     margin-bottom: 3rem;
 }
 
-/* Professional help */
+/* Quiet Wisdom section */
+/* Make img small */
+.quotes img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Make img rounded */
+.quotes img {
+    border-radius: 50px;
+}
+
+/* Set consistent height for all carousel slides */
+.quotes {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Professional help section */
 #professional-help-modal {
     --bs-modal-bg: var(--background-color-tertiary);
     --bs-modal-border-color: var(--bs-border-color-translucent);
