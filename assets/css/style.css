@@ -149,18 +149,6 @@ body {
     font-size: 1.5rem;
 }
 
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
-
 /* Small devices */
 @media screen and (max-width: 768px) {
     #footer p {
