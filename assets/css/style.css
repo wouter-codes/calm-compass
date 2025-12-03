@@ -149,6 +149,10 @@ body {
     font-size: 1.5rem;
 }
 
+.socials i:hover {
+    color: var(--background-color-quaternary);
+}
+
 /* Small devices */
 @media screen and (max-width: 768px) {
     #footer p {
