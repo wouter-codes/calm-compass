@@ -182,6 +182,8 @@ body {
     color: var(--background-color-quaternary);
 }
 
+/* Median queries */
+
 /* Small devices */
 @media screen and (max-width: 768px) {
     #footer p {
@@ -191,6 +193,7 @@ body {
 
 /* Medium devices */
 @media screen and (max-width: 992px) {
+    /* Keep icons of cards at 50% max-width */
     #symptom-check .card-img-top,
     #calming-tools .card-img-top {
         max-width: 50%;
