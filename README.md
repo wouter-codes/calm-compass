@@ -204,7 +204,7 @@ Responsive design was tested on the following devices:
 
 **CSS** — No errors were found when passing through the official (Jigsaw) validator
 
-**Lighthouse report** — No major errors found, good
+**Lighthouse report** — No major errors found, 90% or higher scores across the board
 
 ![Lighthouse report showing performance 90%, accessibility 98% and best practices 96%](doc/images/lighthouse-report.png)
 
@@ -266,10 +266,11 @@ The live site can be found at: https://wouter-codes.github.io/calm-compass/
 
 ## AI Assistance
 
-This project was developed with assistance from **GitHub Copilot** (Claude) for:
+This project was developed with assistance from **GitHub Copilot** (Claude) and **Gemini** (including _Nano Banana_) for:
 
 -   Debugging CSS issues (flexbox card alignment, scroll-margin-top for fixed navbar)
--   Generating ideas for website content (cards, accordion and quotes content)
+-   Image generation (creation of logo)
+-   Generating ideas for website content and wording (titles, cards, accordion and quotes content)
 -   Code review and accessibility suggestions
 -   README structure and content suggestions.
 
