@@ -163,7 +163,7 @@ _Modal window with UK mental health resources_
 
 ### Footer
 
-![Footer Screenshot](assets/images/screenshots/footer-screenshot.png)
+![Footer Screenshot](doc/images/footer-screenshot.png)
 _Simple footer with copyright and social media links_
 
 -   **Social media links** — Instagram, Facebook, X (Twitter), LinkedIn
