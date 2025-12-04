@@ -118,6 +118,14 @@ body {
 }
 
 /* Calming Tools section */
+
+#stress-tools,
+#anxiety-tools,
+#loneliness-tools,
+#low-mood-tools {
+    scroll-margin-top: 65px; /* Adjust to match navbar height + some extra space */
+}
+
 .accordion {
     --bs-accordion-bg: var(--background-color-tertiary);
     --bs-accordion-border-color: var(--bs-border-color-translucent);
