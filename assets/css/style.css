@@ -83,8 +83,37 @@ body {
 }
 
 /* Symptom Check section */
+
+/* Ensures all cards have equal height of full container */
 #symptom-check .card {
     padding-top: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* flex grow allows element to expand to take up extra space */
+/* display flex turns card body itself into flex container,
+    allowing its child elements to be laid out flexibly.  */
+#symptom-check .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* flex grow allows element to expand to take up extra space */
+#symptom-check .card-body .card-text {
+    flex: 1;
+}
+
+/* Keeps button aligned at bottom card body */
+#symptom-check .card-body .btn {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+#symptom-check .row > [class*="col-"] {
+    display: flex;
     margin-bottom: 1.5rem;
 }
 
