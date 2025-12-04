@@ -3,22 +3,28 @@
 
 /* CSS Variables for consistent styling */
 :root {
+    /* Typography */
     --primary-font: "Poppins", sans-serif;
     --secondary-font: "Lora", serif;
+
+    /* Text colours */
     --primary-color: #212121; /* Graphite Black */
     --secondary-color: #22223b; /* Dark Blue */
     --third-color: #f8ffed; /* Off White */
     --fourth-color: #cfd3c6; /* Darker Off White */
+
+    /* Background colours */
     --background-color-primary: #e2ecdf; /* Beige Green */
     --background-color-secondary: #425c52; /* Deep Sage */
     --background-color-tertiary: #d6e4d2; /* Light Beige Green */
     --background-color-quaternary: #a7c49c; /* Slightly Light Beige Green */
 }
 
-/* Global styles */
+/* GLOBAL STYLES */
 body {
     font-family: var(--primary-font);
     padding-top: 57.52px; /* Adjusted for navbar height */
+    background-color: var(--background-color-primary);
 }
 
 h1,
@@ -32,7 +38,7 @@ h3 {
     padding-top: 4rem; /* prevents navbar from overlapping content */
 }
 
-/* Navbar */
+/* NAVBAR */
 #navbar {
     background-color: var(--background-color-secondary);
 }
@@ -41,12 +47,9 @@ h3 {
     width: 30px;
 }
 
-body {
-    background-color: var(--background-color-primary);
-}
-
-/* Hero section / header */
+/* HERO SECTION / HEADER */
 .hero {
+    /* hero image and styling */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("../images/wide-landscape.png");
     background-position: center;
@@ -61,7 +64,7 @@ body {
     color: var(--third-color);
 }
 
-/* Buttons */
+/* BUTTONS */
 .hero .btn {
     background-color: transparent;
     color: var(--third-color);
@@ -82,7 +85,7 @@ body {
     color: white;
 }
 
-/* Symptom Check section */
+/* SYMPTOM CHECK SECTION */
 
 /* Ensures all cards have equal height of full container */
 #symptom-check .card {
@@ -101,7 +104,7 @@ body {
     flex-direction: column;
 }
 
-/* flex grow allows element to expand to take up extra space */
+/* Allows text to expand and push button to bottom */
 #symptom-check .card-body .card-text {
     flex: 1;
 }
@@ -112,13 +115,15 @@ body {
     align-self: flex-start;
 }
 
-#symptom-check .row > [class*="col-"] {
+/* Enables equal height columns with consistent spacing */
+.symptom-card {
     display: flex;
     margin-bottom: 1.5rem;
 }
 
-/* Calming Tools section */
+/* CALMING TOOLS SECTION */
 
+/* Offset for anchor links to account for fixed navbar */
 #stress-tools,
 #anxiety-tools,
 #loneliness-tools,
@@ -126,6 +131,7 @@ body {
     scroll-margin-top: 65px; /* Adjust to match navbar height + some extra space */
 }
 
+/* Bootstrap accordion customisation */
 .accordion {
     --bs-accordion-bg: var(--background-color-tertiary);
     --bs-accordion-border-color: var(--bs-border-color-translucent);
@@ -139,15 +145,12 @@ body {
     margin-bottom: 3rem;
 }
 
-/* Quiet Wisdom section */
-/* Make img small */
+/* QUIET WISDOM SECTION */
+
+/* Circular profile images */
 .quotes img {
     max-width: 100px;
     max-height: 100px;
-}
-
-/* Make img rounded */
-.quotes img {
     border-radius: 50px;
 }
 
@@ -160,13 +163,13 @@ body {
     align-items: center;
 }
 
-/* Professional help section */
+/* PROFESSIONAL HELP SECTION / MODAL */
 #professional-help-modal {
     --bs-modal-bg: var(--background-color-tertiary);
     --bs-modal-border-color: var(--bs-border-color-translucent);
 }
 
-/* Footer */
+/* FOOTER */
 #footer {
     background-color: var(--background-color-secondary);
     color: var(--third-color);
@@ -190,7 +193,7 @@ body {
     color: var(--background-color-quaternary);
 }
 
-/* Median queries */
+/* MEDIA QUERIES */
 
 /* Small devices */
 @media screen and (max-width: 768px) {
